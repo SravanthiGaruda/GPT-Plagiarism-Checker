@@ -7,7 +7,7 @@ def CreatingDict():
     answers = []
     with open('TestCases2.txt') as file:
         for line in file:
-            print(line)
+            # print(line)
             if not line:
                 continue
             elif 'Question' in line:
@@ -15,7 +15,7 @@ def CreatingDict():
     
     with open('TestCases2.txt') as file:
         for line in file:
-            print(line)
+            # print(line)
             if not line:
                 continue
             elif 'Answer' in line:
@@ -24,6 +24,8 @@ def CreatingDict():
     for (question, ans) in itertools.zip_longest(questions, answers):
         dict_Questions_Answers[question] = ans
 
-    print(dict_Questions_Answers)
+    # print(dict_Questions_Answers)
+
+    return dict_Questions_Answers
 
 CreatingDict()
