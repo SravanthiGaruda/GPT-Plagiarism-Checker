@@ -1,0 +1,14 @@
+Question: Capital of India
+Answer: The capital of India is New Delhi. 
+
+Question: Where is taj mahal located ?
+Answer: The Taj Mahal is located in Agra, Uttar Pradesh, India.
+
+Question: Abbreviation for USA
+Answer: The abbreviation for the United States of America is "USA." 
+
+Question: One who goes on foot
+Answer: A person who goes on foot is called a pedestrian. 
+
+Question: When is Christmas Celebrated.
+Answer: Christmas is a holiday that is celebrated on December 25th every year. 
