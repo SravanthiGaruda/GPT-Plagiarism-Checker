@@ -9,16 +9,10 @@ End-Goal of the project:
 
 Setting up and Configurataion
 --------------------------------------------------------------------------------------------------------------------------
-1. Install VScode 
-2. Install Python 
-3. pip install openai
+1. Install Jupyter Notebook using Anaconda
 
 How to Use
 --------------------------------------------------------------------------------------------------------------------------
-
-1. Create a folder which consists of various text files in the format of Question and Answer. (Mock text file has been uploaded in the directort as TestCases.txt for reference).
-2. Created folder path needs to be provided in the helper.py file.
-3. Create a Authorization Key from https://beta.openai.com/account/api-keys.
-4. Provide the created API Key in helper.py file in auth variable.
-5. Provide the number of tokens to be matched in the tokenMatch variable present in helper.py file.
-6. Run ExtractFilePercentage.py for output.
+1. Insert query at the end of the LaptopPricePrediction_Code.ipynb file in the below format.
+ Example:- laptop_Price('Samsung','Ultrabook',13.3,8,'256GB SSD',0.81,0,0,'Intel Core i5','Intel','Windows',1920,1080)
+2. Run the command to obtain the predicted price value of the laptop.
